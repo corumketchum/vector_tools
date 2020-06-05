@@ -19,7 +19,7 @@ import spacy
 import en_core_web_md
 nlp = en_core_web_md.load()  
 
-####methods start here 
+#test
 
 ####Subtracting  vectors 
 def subtractv(x:list, y:list) -> list:
