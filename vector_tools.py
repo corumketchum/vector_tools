@@ -17,7 +17,7 @@ import spacy
 
 ###Bring in english language for use with spaCy (can replace with other language library)
 import en_core_web_md
-nlp = en_core_web_md.load()
+nlp = en_core_web_md.load()  
 
 ####methods start here 
 
