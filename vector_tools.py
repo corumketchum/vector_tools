@@ -1,23 +1,23 @@
 ###Loading relevant libraries 
-import pandas as pd
+#import pandas as pd
 
 ###puddles for data science credit: steve fickas 
 #flush the old directory
-!rm -r  'uo_puddles'
+#!rm -r  'uo_puddles'
 
-my_github_name = 'corumketchum'  #replace with your account name
-clone_url = f'https://github.com/{my_github_name}/uo_puddles.git'
-!git clone $clone_url 
-import uo_puddles.uo_puddles as up
+#my_github_name = 'corumketchum'  #replace with your account name
+#clone_url = f'https://github.com/{my_github_name}/uo_puddles.git'
+#!git clone $clone_url 
+#import uo_puddles.uo_puddles as up
 
 ###spaCy key functions for tokenizing and analyzing language 
 
-import spacy
-!python -m spacy download en_core_web_md
+#import spacy
+#!python -m spacy download en_core_web_md
 
 ###Bring in english language for use with spaCy (can replace with other language library)
-import en_core_web_md
-nlp = en_core_web_md.load()
+#import en_core_web_md
+#nlp = en_core_web_md.load()
 
 ####methods start here 
 
