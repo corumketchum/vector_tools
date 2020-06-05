@@ -19,8 +19,6 @@ import spacy
 import en_core_web_md
 nlp = en_core_web_md.load()  
 
-#test
-
 ####Subtracting  vectors 
 def subtractv(x:list, y:list) -> list:
   assert isinstance(x, list), f"x must be a list but instead is {type(x)}"
