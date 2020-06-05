@@ -54,7 +54,7 @@ def addv(x:list, y:list) -> list:
   return result
  
 ###Dividing Vectors
- def dividev(x:list, c) -> list:
+def dividev(x:list, c) -> list:
   assert isinstance(x, list), f"x must be a list but instead is {type(x)}"
   assert isinstance(c, int) or isinstance(c, float), f"c must be an int or a float but instead is {type(c)}"
 
@@ -85,7 +85,7 @@ def get_vec(s:str) -> list:
     return nlp.vocab[s].vector.tolist()
  
 ###Converts whole sentences to vectors dependent on all above
- def sent2vec(sentence: str) -> list:
+def sent2vec(sentence: str) -> list:
 
   matrix = []
 
