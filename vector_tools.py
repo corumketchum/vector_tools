@@ -8,7 +8,7 @@ import pandas as pd
 my_github_name = 'corumketchum'  #replace with your account name
 clone_url = f'https://github.com/{my_github_name}/uo_puddles.git'
 !git clone $clone_url 
-mport uo_puddles.uo_puddles as up
+import uo_puddles.uo_puddles as up
 
 ###spaCy key functions for tokenizing and analyzing language 
 
