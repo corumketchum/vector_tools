@@ -12,12 +12,12 @@
 
 ###spaCy key functions for tokenizing and analyzing language 
 
-#import spacy
-#!python -m spacy download en_core_web_md
+import spacy
+!python -m spacy download en_core_web_md
 
 ###Bring in english language for use with spaCy (can replace with other language library)
-#import en_core_web_md
-#nlp = en_core_web_md.load()
+import en_core_web_md
+nlp = en_core_web_md.load()
 
 ####methods start here 
 
